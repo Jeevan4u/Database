@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+background-color: rgb(0, 0, 0);
+height: 100vh;
+overflow: hidden;
+}
+
+#first{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y ;
+}
+
+.section {
+    scroll-snap-align: center;
+}
+
+#mainNavbar{
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1px;
+}
+
+#mainNavbar.mynav{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+}
+#mainNavbar .nav-link{
+    color:#ffff;
+   
+}
+#mainNavbar > a {
+    margin-left: 40px;
+}
+#mainNavbar .nav-link:hover{
+    color: red;
+    transition: 1s;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+#left {
+    margin-left: auto;
+}
+#left .nav-link{
+    margin-right: 50px;
+}
+
+
+i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+.mynav{
+    background-color: rgba(37, 0, 139, 0.534);
+
+}
+
+
+.wider {
+    width: 100vw;
+    height: 100vh;
+}
+
+.captionPosition{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.iconSize{
+    width: 40px;
+    height: 30px;
+}
+
+.containerFix{
+    font-size: 1rem;
+    color: #fff;
+    background-image: url(https://wallpaperaccess.com/full/1567666.png);
+}
+
+.card{
+    background: rgb(66, 62, 62);
+    transition: 1s;
+    opacity: 0.7;
+    width: 500px;
+    
+    
+}
+.card:hover{
+    background: #591e8c8f;
+    color: #fff;
+}
+
+
+.card-img-top.imgStyle{
+    height: 250px;
+}
+
+.colStyles {
+    margin-top: 2%;
+    margin-bottom: 5%;
+   
+}
+
+.buttonStyles{
+    border: 1px solid #fff;
+}
+
+.togglerStyles{
+    background-color: #fff;
+    border-radius: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+#mainNavbar > button :hover{
+ background-color: rgba(245, 9, 9, 0.589);
+ transition: 1s;
+}
+
+
+i{
+    padding-right: 4px;
+}
+
+
+.contacts{
+    height: 70vh;       
+    padding-top: 2%;
+    color: #fff;
+    
+}
+
+.contentRight > h1{
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.contentRight > p{
+    font-size: 1.5rem;
+}
+
+.socialMediaIcons {
+    margin-top: 50px;
+}
+
+.socialMediaIcons a >i {
+    font-size: 1.7rem;
+    color: aqua;
+    transition: 0.2s ease-in;
+}
+
+.socialMediaIcons a >i:hover{
+    color: #e33930;
+}
+
+.socialMediaIcons .pad{
+    padding-left: 2rem;
+}
+
+footer{
+    background-color: rgb(196, 188, 177);
+}
+
+.carousel-caption > h1 {
+    color: rgba(139, 39, 39, 0.781);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.carousel-caption > p{
+    color:rgb(15, 216, 166);
+    font-weight: bold;
+}
+
+.contentRight{
+    padding-left: 20%;
+}
+
+.contentLeft {
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.contacts{
+    background-image: url(https://www.portalzine.de/wp-content/uploads/sites/3/2016/09/particles2.jpg);
+}
+
+footer{
+    opacity: 0.7;
+}
+
+form , .button-edit {
+    margin-top: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color:#5e0a8f;
+}
+
+#about .Topic{
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+}
+
+.newer{
+    font-size: 3rem;
+    color: #5e0a8f ;
+    
+}
+
+.fontsize{
+    font-size: 1.5rem;
+}
+
+.hub{
+    color: #e06f23;
+}
+
+.spacing{
+    letter-spacing: 3px;
+}
